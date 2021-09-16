@@ -1,9 +1,9 @@
 "use strict";
 
 class movieModel {
-  constructor(name, description) {
-    this.name = name;
-    this.description = description;
+  constructor(item) {
+    this.name = item.original_title;
+    this.description = item.overview;
   }
 };
 
